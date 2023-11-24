@@ -1,0 +1,29 @@
+<section class="container criar-alunos ff-inter">
+  <header class="header">
+    <h2>Adicionar aluno:</h2>
+  </header>
+  <form>
+    <label for="aluno">Email</label>
+    <input
+      type="textarea"
+      class="input"
+      id="aluno"
+      name="aluno"
+      placeholder="Email..."
+      [(ngModel)]="aluno.conteudo"
+    >
+    <label for="autoria">Nome</label>
+    <input
+      type="text"
+      class="input"
+      id="autoria"
+      name="autoria"
+      placeholder="Nome..."
+      [(ngModel)]="aluno.autoria"
+    >
+    <div class="acoes">
+      <button routerLink="/criarAluno" (click)="criarAluno()" class="botao">Salvar Aluno</button>
+      <button (click)="cancelar()" class="botao">Cancelar</button>
+    </div>
+  </form>
+</section>

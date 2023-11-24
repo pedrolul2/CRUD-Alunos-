@@ -1,0 +1,19 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "pedro@alves.com",
+      "autoria": "Pedro Lucas Alves"
+    },
+    {
+      "id": 2,
+      "conteudo": "ana@silva.com",
+      "autoria": "Ana Luiz Silva"
+    },
+    {
+      "id": 3,
+      "conteudo": "antonio@silveira.com",
+      "autoria": "Antônio Silveira"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+.acoes {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.botao-excluir {
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: -35px;
+  background-color: transparent;
+}
+
+.botao-editar {
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-top: -35px;
+  background-color: transparent;
+}
+
+.aluno {
+  background-color: #fad0d0;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: solid .5px red;
+  border-radius: 5px;
+}
+
+.aluno .conteudo {
+  margin: 1rem auto;
+  word-wrap: break-word;
+}
+
+.aluno .autoria {
+  word-wrap: break-word;
+}
+
+.aluno-g {
+  width: 556px;
+}
+
+.aluno-p {
+  width: 90vw;
+  height: 25vh;
+}
+
+@media screen and (max-width: 768px) {
+  .aluno-g {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .aluno-p {
+    width: 100%;
+  }
+}

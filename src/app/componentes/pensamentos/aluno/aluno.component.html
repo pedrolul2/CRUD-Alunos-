@@ -1,0 +1,14 @@
+<div class="aluno ff-roboto-mono" [ngClass]="larguraAluno()">
+  <p class="conteudo">{{ aluno.conteudo }}</p>
+  <p class="autoria"><b>{{ aluno.autoria }}</b></p>
+  <br>
+  <p class="autoria"><b>Matrícula: {{ aluno.id }}</b></p>
+  <div class="acoes">
+    <button class="botao-editar">
+      <img src="/assets/imagens/icone-editar.png" routerLink="/pensamentos/editarAluno/{{aluno.id}}" alt="Ícone de editar">
+    </button>
+    <button class="botao-excluir" routerLink="/pensamentos/excluirAluno/{{aluno.id}}">
+      <img src="/assets/imagens/icone-excluir.png" alt="Ícone de excluir">
+    </button>
+  </div>
+</div>
